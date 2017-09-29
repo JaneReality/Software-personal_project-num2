@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Jane\AppData\Local\Temp\RSPD1F3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/WC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Microsoft Visual Studio\MyProjects\WC\wc.cpp"
+]
+Creating command line "cl.exe @C:\Users\Jane\AppData\Local\Temp\RSPD1F3.tmp" 
+Creating temporary file "C:\Users\Jane\AppData\Local\Temp\RSPD204.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/WC.pdb" /debug /machine:I386 /out:"Debug/WC.exe" /pdbtype:sept 
+".\Debug\wc.obj"
+]
+Creating command line "link.exe @C:\Users\Jane\AppData\Local\Temp\RSPD204.tmp"
+<h3>Output Window</h3>
+Compiling...
+wc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+WC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
